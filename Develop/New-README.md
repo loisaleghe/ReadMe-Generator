@@ -1,8 +1,8 @@
 
-# dfd
-![GitHub issues](https://img.shields.io/github/issues-raw/ds/undefined) ![Contributors](https://img.shields.io/github/contributors/ds/undefined) ![Code-size](https://img.shields.io/github/languages/code-size/ds/undefined) ![Last Commit](https://img.shields.io/github/last-commit/ds/undefined) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Readme Generator
+ [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Description
-sfdsf
+to generate readme files
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,16 +11,15 @@ sfdsf
 * [Questions](#questions)
 * [License](#license)
 ## Installation
-fsfdsf 
+enter node index and answer questions 
 ## Contributing
-sdfsdf
+
 ## Tests
-sdffd
+creating multiple test cases 
 ## Questions
-<p style="margin-left:3rem">
-  <img alt="Repo Owner" src="undefined&s=125">
-  </p>
-* Contact: undefined
-* Email: sdfdff
+
+![Profile Image](https://avatars0.githubusercontent.com/u/55844826?v=4)
+* Contact: Lois Aleghe 
+* FAQ: can you update readme
 ## License
-Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
+Licensed under the [Apache](https://choosealicense.com/licenses/apache-2.0/) license.

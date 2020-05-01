@@ -8,50 +8,50 @@ let generateMarkdown = require('./utils/generateMarkdown.js')
 const questions = [
     {
         type: 'input',
-        message: 'Enter Github Username',
+        message: 'Enter Github Username:',
         name: 'username'
     },
 
     {
         type: 'input',
-        message: 'Enter Github repository title (a.k.a project title)',
+        message: 'Enter Github repository title (a.k.a project title):',
         name: 'title'
     },
 
     {
         type: 'input',
-        message: 'Enter project description',
+        message: 'Enter project description:',
         name: 'description'
     },
 
     {
         type: 'input',
-        message: 'Enter installation process/instructions',
+        message: 'Enter installation process/instructions:',
         name: 'usage'
     },
 
     {
         type: 'list',
-        message: 'Select a license for this project',
+        message: 'Select a license for this project:',
         name: 'license',
         choices: ["MIT", "Apache", "The_Unlicense", "Mozilla_PL_2", "GNU_3"]
     },
 
     {
         type: 'input',
-        message: 'Enter ways to test the project',
+        message: 'Enter ways to test the project:',
         name: 'test'
     },
 
     {
         type: 'input',
-        message: 'Enter methods users can use to contribute',
+        message: 'Enter methods users can use to contribute:',
         name: 'contributing'
     },
 
     {
         type: 'input',
-        message: 'Enter frequently asked questions',
+        message: 'Enter frequently asked questions:',
         name: 'questions'
     }
 ]
@@ -76,7 +76,7 @@ const writeToFile = async (filename, data) =>{
             const result = await inquirer.prompt(questions);
     
             const githubUser = await axios.get(`https://api.github.com/users/${result.username}`);
-    
+                
             const markdown = generateMarkdown(result, githubUser)
             fs.writeFile('New-README.md', markdown, function (err) {
                 if (err) {
